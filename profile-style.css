@@ -1,0 +1,996 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:#848482;
+	outline:none;
+}
+.content1{
+	width:100%;
+	height:100%;
+	background-color:black;
+
+}
+
+.social-media{
+	display:none;
+}
+
+#social-but-ipad{
+	display:none;
+}
+.profile-cont{
+	width:100%;
+	height:400px;
+	z-index:2;
+
+}
+
+#profile-pic{
+	width:250px;
+	height:250px;
+	background-color:white;
+	float:left;
+	margin-top:50px;
+	box-shadow:0 6px 10px black;
+	margin-left:35px;
+}
+
+
+#profile-pic-cont{
+	width:250px;
+	height:250px;
+
+}
+#name{
+	width:250px;
+	height:70px;
+	background-color:#ffbf00;
+	margin-top:10px;
+	box-shadow:0 3px 8px black;
+}
+
+#name-cont{
+	text-align:center;
+	font-size:20px;
+	padding-top:12px;
+	font-weight:bold;
+
+}
+
+#name-cont1{
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+	font-style:italic;
+
+}
+.details{
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+#about{
+	width:90px;
+	height:40px;
+	background-color:#ffa500;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+	margin-left:15px;
+
+}
+
+#about:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+
+#background{
+	width:90px;
+	height:40px;
+	background-color:#ffa500;
+	margin-left:10px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#background:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#carrer{
+	width:90px;
+	height:40px;
+	background-color:#ffa500;
+	margin-left:10px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#carrer:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#message{
+	width:90%;
+	height:100px;
+	margin-left:5%;
+	float:left;
+}
+
+#message-p{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	color:white;
+	text-align:center;
+	padding-top:20px;
+}
+
+#message-twitter{
+	width:50px;
+	height:55px;
+	margin-top:10px;
+	margin-left:60px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-twitter:hover{
+ transform:rotate(360deg);
+}
+#message-insta{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-insta:hover{
+ transform:rotate(360deg);
+}
+#message-google{
+	width:38px;
+	height:38px;
+	margin-top:17px;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-google:hover{
+	transform:rotate(360deg);
+}
+
+@media only screen and (min-height:812px)
+{
+.content1{
+	background-color:red;
+}
+
+
+}
+@media only screen and (min-width:360px)
+{
+	.content1{
+	width:100%;
+	height:100%;
+	background-color:black;
+
+}
+
+.social-media{
+	display:none;
+}
+
+#social-but-ipad{
+	display:none;
+}
+.profile-cont{
+	width:100%;
+	height:450px;
+	z-index:2;
+
+}
+
+#profile-pic{
+	width:80%;
+	height:300px;
+	background-color:white;
+	float:left;
+	margin-top:50px;
+	box-shadow:0 6px 10px black;
+	margin-left:10%;
+}
+
+
+#profile-pic-cont{
+	width:100%;
+	height:300px;
+
+}
+#name{
+	width:100%;
+	height:70px;
+	background-color:#ffbf00;
+	margin-top:10px;
+	box-shadow:0 3px 8px black;
+}
+
+#name-cont{
+	text-align:center;
+	font-size:20px;
+	padding-top:12px;
+	font-weight:bold;
+
+}
+
+#name-cont1{
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+	font-style:italic;
+
+}
+.details{
+	width:100%;
+	height:200px;
+	display:block;
+	padding-bottom:10%;
+}
+
+#details-but{
+	width:86%;
+	height:50px;
+	margin-left:7%;
+}
+#about{
+	width:30%;
+	height:40px;
+	background-color:#ffa500;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+	margin-left:3%;
+
+
+}
+
+#about:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+
+#background{
+	width:30%;
+	height:40px;
+	background-color:#ffa500;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+	margin-left:2%;
+
+}
+
+#background:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#carrer{
+	width:30%;
+	height:40px;
+	background-color:#ffa500;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+	margin-left:2%;
+
+}
+
+#carrer:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#message{
+	width:90%;
+	height:150px;
+	margin-left:5%;
+	float:left;
+}
+
+#message-p{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	color:white;
+	text-align:center;
+	padding-top:20px;
+}
+#message-cont{
+	width:62%;
+	height:80px;
+	margin-left:19%;
+
+}
+
+#message-twitter{
+	width:50px;
+	height:55px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-twitter:hover{
+ transform:rotate(360deg);
+}
+#message-insta{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-insta:hover{
+ transform:rotate(360deg);
+}
+#message-google{
+	width:38px;
+	height:38px;
+	margin-top:17px;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-google:hover{
+	transform:rotate(360deg);
+}
+	
+	}
+
+
+
+@media only screen and (min-width:750px)
+{
+.content1{
+	
+width:90%;
+height:600px;
+background-color:black;
+margin-left:5%;
+margin-top:25%;
+}
+.social-media{
+	display:none;
+
+}
+
+.profile-cont{
+	width:250px;
+	height:600px;
+	background-color:red;
+	float:left;
+	margin-left:50px;
+	position:fixed;
+	z-index:2;
+
+}
+
+#profile-pic{
+	width:200px;
+	height:200px;
+	background-color:white;
+	float:left;
+	margin-top:150px;
+	margin-left:25px;
+	box-shadow:0 6px 10px black;
+}
+
+
+#profile-pic-cont{
+	width:200px;
+	height:200px;
+
+}
+#name{
+	width:200px;
+	height:70px;
+	background-color:#ffbf00;
+	margin-top:10px;
+	box-shadow:0 3px 8px black;
+}
+
+#name-cont{
+	text-align:center;
+	font-size:20px;
+	padding-top:12px;
+	font-weight:bold;
+
+}
+
+#name-cont1{
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+	font-style:italic;
+
+}
+
+#social-but-ipad{
+	width:200px;
+	height:70px;
+	position:fixed;
+	margin-top:450px;
+	margin-left:25px;
+}
+#follow-ipad{
+	font-size:15px;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	text-align:center;
+}
+#facebook-ipad{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#twitter-ipad{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+
+}
+#insta-ipad{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+
+}
+#messenger-ipad{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+
+}
+
+
+.details{
+	width:300px;
+	height:600px;
+	float:left;
+	margin-left:300px;
+	position:fixed;
+	display:block;
+}
+
+#about{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:100px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#about:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+
+#background{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:50px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#background:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#carrer{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:50px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#carrer:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+#message{
+	width:250px;
+	height:150px;
+	margin-top:40px;
+	margin-left:90px;
+	float:left;
+
+}
+#message-cont{
+	width:180px;
+	height:80px;
+	margin-left:35px;
+
+	
+}
+
+#message-p{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	color:white;
+	text-align:center;
+	padding-top:20px;
+}
+
+#message-twitter{
+	width:50px;
+	height:55px;
+	margin-top:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-twitter:hover{
+ transform:rotate(360deg);
+}
+#message-insta{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-insta:hover{
+ transform:rotate(360deg);
+}
+#message-google{
+	width:38px;
+	height:38px;
+	margin-top:17px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-google:hover{
+	transform:rotate(360deg);
+}
+}
+
+@media only screen and (min-width:1000px)
+{
+
+.social-media-cont1{
+	width:200px;
+	height:600px;
+	float:right;
+	position:fixed;
+	margin-left:450px;
+}
+.social-media{
+	width:10px;
+	height:300px;
+	background-color:white;
+	float:left;
+	margin-top:200px;
+	position:relative;
+	transition:0.5s;
+	position:absolute;
+	z-index:1;
+	display:block;
+
+}
+
+
+.social-media:hover{
+	width:60px;
+	z-index:-1;
+
+}
+#social-but{
+	width:50px;
+	height:100%;
+	float:right;
+
+}
+.content1{
+	width:70%;
+	height:600px;
+	background-color:black;
+	margin-top:100px;
+	margin-left:15%;
+	float:left;
+	position:relative;
+}
+
+#follow{
+	font-size:12px;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	float:left;
+	margin-top:10px;
+}
+
+#follow1{
+	font-size:12px;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	margin-top:0;
+	margin-left:10px;
+
+}
+#facebook-container{
+	width:40px;
+	height:40px;
+	float:right;
+	margin-right:10px;
+	margin-top:15px;
+
+
+}
+#facebook{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	float:right;
+	transition:0.5s;
+}
+#facebook:hover{
+ box-shadow:0 3px 10px black;
+}
+
+#twitter-container{
+	width:40px;
+	height:40px;
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+
+
+}
+#twitter{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	float:right;
+	transition:0.5s;
+}
+#twitter:hover{
+ box-shadow:0 3px 10px black;
+}
+
+
+#insta-container{
+	width:40px;
+	height:40px;
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+
+
+}
+#insta{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	float:right;
+	transition:0.2s;
+}
+#insta:hover{
+	box-shadow: 0 3px 10px black;
+}
+
+
+
+#messenger-container{
+	width:40px;
+	height:40px;
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+
+
+}
+
+#messenger{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	float:right;
+	transition:0.5s;
+}
+#messenger:hover{
+ box-shadow:0 3px 10px black;
+}
+
+.profile-cont{
+	width:350px;
+	height:600px;
+	background-color:red;
+	float:left;
+	margin-left:100px;
+	position:fixed;
+	z-index:2;
+
+}
+
+#profile-pic{
+	width:250px;
+	height:250px;
+	background-color:white;
+	float:left;
+	margin-top:150px;
+	margin-left:50px;
+	box-shadow:0 6px 10px black;
+}
+
+
+#profile-pic-cont{
+	width:250px;
+	height:250px;
+
+}
+#name{
+	width:250px;
+	height:70px;
+	background-color:#ffbf00;
+	margin-top:10px;
+	box-shadow:0 3px 8px black;
+}
+
+#name-cont{
+	text-align:center;
+	font-size:20px;
+	padding-top:12px;
+	font-weight:bold;
+
+}
+
+#name-cont1{
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+	font-style:italic;
+
+}
+#social-but-ipad{
+	display:none;
+}
+
+.details{
+	width:400px;
+	height:600px;
+	float:left;
+	margin-left:570px;
+	position:fixed;
+	display:block;
+}
+
+#about{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:100px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#about:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+
+#background{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:50px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#background:hover{
+
+	background-color:transparent;
+	color:white;
+}
+#carrer{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	margin-top:50px;
+	margin-left:100px;
+	border:transparent;
+	font-size:14px;
+	cursor:pointer;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	outline:none;
+	transition:0.5s;
+	float:left;
+
+}
+
+#carrer:hover{
+
+	background-color:transparent;
+	color:white;
+}
+
+#message{
+	width:300px;
+	height:150px;
+	margin-top:40px;
+	margin-left:80px;
+	float:left;
+	
+}
+#message-cont{
+	width:62%;
+	height:80px;
+	margin-left:19%;
+
+}
+#message-p{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	color:white;
+	text-align:center;
+	padding-top:20px;
+}
+
+#message-twitter{
+	width:50px;
+	height:55px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-twitter:hover{
+ transform:rotate(360deg);
+}
+#message-insta{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-insta:hover{
+ transform:rotate(360deg);
+}
+#message-google{
+	width:38px;
+	height:38px;
+	margin-top:17px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+	transition:1.5s;
+}
+#message-google:hover{
+	transform:rotate(360deg);
+}
+
+
+}

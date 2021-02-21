@@ -1,0 +1,193 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#848482;
+}
+
+.content{
+	width:70%;
+	height:600px;
+	background-color:black;
+	margin-left:15%;
+	position:fixed;
+	margin-top:100px;
+}
+.left-cont{
+	width:100%;
+	height:60px;
+	margin-top:20px;
+	float:left;
+}
+#return{
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	border-radius:180px;
+	transition:0.5s;
+	float:left;
+	margin-left:20px;
+
+}
+#return:hover{
+	box-shadow:0 1px 6px white;
+}
+#design{
+	width:300px;
+	height:0;
+	float:right;
+	margin-top:5px;
+	border-top:30px solid red;
+	border-left:20px solid transparent;
+	border-bottom:30px solid red;
+}
+#main-cont{
+	width:90%;
+	height:405px;
+	margin-left:5%;
+	margin-top:100px;
+
+	
+}
+
+
+#more{
+	width:160px;
+	height:50px;
+	background-color:#ffa500;
+	border:transparent;
+	float:right;
+	font-family:"montserrat",sans-serif;
+	font-size:15px;
+	font-style:italic;
+	outline:none;
+	cursor:pointer;
+	margin-top:10px;
+	margin-right:20px;
+	transition:0.5s;
+
+}
+#more:hover{
+	color:white;
+	background-color:transparent;
+}
+
+#p-title{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	padding:15px;
+	background-color:#ffa500;
+	width:150px;
+	text-align:center;
+
+}
+
+
+#fam1{
+ width:300px;
+ height:130px;
+ color:white;
+ border:solid 1px;
+ cursor:pointer;
+ transition:0.5s;
+ margin-top:30px;
+ float:left;
+ margin-left:170px;
+ transition:0.5s;
+
+}
+#fam1:hover{
+background-color:white;
+color:black;
+}
+#fampic{
+	width: 100px;
+	height:100px;
+	margin-top:15px;
+	margin-left:15px;
+	border:solid 2px black;
+	float:left;
+}
+#details{
+	width:160px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:15px;
+}
+#p1{
+	font-size:18px;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+#p2{
+	font-size:13px;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+}
+#fam2{
+ width:300px;
+ height:130px;
+ color:white;
+ border:solid 1px;
+ cursor:pointer;
+ transition:0.5s;
+ margin-top:30px;
+ float:left;
+ margin-left:20px;
+}
+#fam2:hover{
+background-color:white;
+color:black;
+}
+#fam3{
+ width:300px;
+ height:130px;
+ color:white;
+ border:solid 1px;
+ cursor:pointer;
+ transition:0.5s;
+ margin-top:20px;
+ float:left;
+ margin-left:10px;
+}
+#fam3:hover{
+background-color:white;
+color:black;
+}
+#fam4{
+ width:300px;
+ height:130px;
+ color:white;
+ border:solid 1px;
+ cursor:pointer;
+ transition:0.5s;
+ margin-top:20px;
+ float:left;
+ margin-left:20px;
+}
+#fam4:hover{
+background-color:white;
+color:black;
+}
+#fam5{
+ width:300px;
+ height:130px;
+ color:white;
+ border:solid 1px;
+ cursor:pointer;
+ transition:0.5s;
+ margin-top:20px;
+ float:left;
+ margin-left:20px;
+}
+#fam5:hover{
+background-color:white;
+color:black;
+}
+
+

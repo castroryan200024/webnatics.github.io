@@ -1,0 +1,435 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#848482;
+}
+
+.content{
+	width:100%;
+	height:100%;
+	background-color:black;
+	position:fixed;
+}
+.left-cont{
+	width:100%;
+	height:60px;
+	margin-top:20px;
+	float:left;
+}
+#return{
+	width:50px;
+	height:50px;
+	cursor:pointer;
+	border-radius:180px;
+	transition:0.5s;
+	float:left;
+	margin-left:20px;
+
+}
+#return:hover{
+	box-shadow:0 1px 6px white;
+}
+#design{
+	width:200px;
+	height:0;
+	float:right;
+	margin-top:5px;
+	border-top:20px solid red;
+	border-left:10px solid transparent;
+	border-bottom:20px solid red;
+}
+#main-cont{
+	width:90%;
+	height:60%;
+	margin-left:5%;
+	margin-top:120px;
+	overflow-y:scroll;
+	
+}
+#title{
+	width:180px;
+	height:40px;
+	background-color:#ffa500;
+	
+
+
+}
+#p-title{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	text-align:center;
+	font-size:14px;
+	padding-top:10px;
+
+}
+
+
+#li-elementary{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	list-style:none;
+	margin-top:20px;
+	text-align:center;
+	text-decoration:underline;
+
+}
+#elementary-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	text-indent:20px;
+}
+#li-highschool{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	list-style:none;
+	margin-top:20px;
+	text-align:center;
+	text-decoration:underline;
+}
+#highschool-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	text-indent:20px;
+}
+
+#li-college{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	list-style:none;
+	margin-top:20px;
+	text-align:center;
+	text-decoration:underline;
+
+}
+
+#college-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	text-indent:20px;
+}
+
+#more{
+	width:120px;
+	height:40px;
+	background-color:#ffa500;
+	border:transparent;
+	float:right;
+	font-family:"montserrat",sans-serif;
+	font-size:14px;
+	font-style:italic;
+	outline:none;
+	cursor:pointer;
+	margin-top:40px;
+	margin-right:20px;
+	transition:0.5s;
+
+}
+#more:hover{
+	color:white;
+	background-color:transparent;
+}
+
+
+@media only screen and (min-width:750px)
+{
+
+
+
+.content{
+	width:90%;
+	height:900px;
+	background-color:black;
+	margin-left:5%;
+	position:fixed;
+	margin-top:60px;
+}
+.left-cont{
+	width:100%;
+	height:60px;
+	margin-top:20px;
+	float:left;
+}
+#return{
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	border-radius:180px;
+	transition:0.5s;
+	float:left;
+	margin-left:20px;
+
+}
+#return:hover{
+	box-shadow:0 1px 6px white;
+}
+#design{
+	width:300px;
+	height:0;
+	float:right;
+	margin-top:5px;
+	border-top:30px solid red;
+	border-left:20px solid transparent;
+	border-bottom:30px solid red;
+}
+#main-cont{
+	width:90%;
+	height:605px;
+	margin-left:5%;
+	margin-top:120px;
+	overflow-y:hidden;
+	
+}
+#title{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	
+
+
+}
+#p-title{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	text-align:center;
+	padding-top:15px;
+
+}
+
+
+#li-elementary{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+#elementary-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+#li-highschool{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+#highschool-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+
+#li-college{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+
+#college-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+
+#more{
+	width:160px;
+	height:50px;
+	background-color:#ffa500;
+	border:transparent;
+	float:right;
+	font-family:"montserrat",sans-serif;
+	font-size:15px;
+	font-style:italic;
+	outline:none;
+	cursor:pointer;
+	margin-top:100px;
+	margin-right:20px;
+	transition:0.5s;
+
+}
+#more:hover{
+	color:white;
+	background-color:transparent;
+}
+
+}
+
+
+
+@media only screen and (min-width:1000px)
+{
+
+
+
+.content{
+	width:70%;
+	height:600px;
+	background-color:black;
+	margin-left:15%;
+	position:fixed;
+	margin-top:100px;
+}
+.left-cont{
+	width:100%;
+	height:60px;
+	margin-top:20px;
+	float:left;
+}
+#return{
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	border-radius:180px;
+	transition:0.5s;
+	float:left;
+	margin-left:20px;
+
+}
+#return:hover{
+	box-shadow:0 1px 6px white;
+}
+#design{
+	width:300px;
+	height:0;
+	float:right;
+	margin-top:5px;
+	border-top:30px solid red;
+	border-left:20px solid transparent;
+	border-bottom:30px solid red;
+}
+#main-cont{
+	width:90%;
+	height:405px;
+	margin-left:5%;
+	margin-top:120px;
+	
+}
+#title{
+	width:200px;
+	height:50px;
+	background-color:#ffa500;
+	
+
+
+}
+#p-title{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	text-align:center;
+	padding-top:15px;
+
+}
+
+
+#li-elementary{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+#elementary-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+#li-highschool{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+#highschool-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+
+#li-college{
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:white;
+	margin-top:20px;
+
+}
+
+#college-cont{
+	color:white;
+	font-family:"montserrat",sans-serif;
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+	text-indent:30px;
+}
+
+#more{
+	width:160px;
+	height:50px;
+	background-color:#ffa500;
+	border:transparent;
+	float:right;
+	font-family:"montserrat",sans-serif;
+	font-size:15px;
+	font-style:italic;
+	outline:none;
+	cursor:pointer;
+	margin-top:10px;
+	margin-right:20px;
+	transition:0.5s;
+
+}
+#more:hover{
+	color:white;
+	background-color:transparent;
+}
+
+}
